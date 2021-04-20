@@ -13,7 +13,7 @@
       <p class="photoDate">{{formatDate(photo.created)}}</p>
       <br/>
 
-    
+
 
     </div>
   </section>
@@ -102,7 +102,7 @@ p {
   box-sizing: inherit;
 }
 .image-gallery {
-  column-gap: 1em;
+  column-gap: 10em;
 }
 .image {
   margin: 0 0 1.5em;
@@ -110,11 +110,12 @@ p {
   outline-style: double;
   margin-top: 200px;
   width: 150%;
-
 }
 .image img {
   width: 100%;
 }
+
+
 /* Masonry on large screens */
 @media only screen and (min-width: 1024px) {
   .image-gallery {
